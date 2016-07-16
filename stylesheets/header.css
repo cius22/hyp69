@@ -1,6 +1,8 @@
-body {
-  padding-top: 40px;
+.box {
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 .blue-bar{
     height: 50px;
@@ -14,6 +16,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-right: 15px;
     overflow: hidden;
     float:right;
 }
@@ -23,12 +26,19 @@ body {
 }
 
 .who-we-are{
-    border: 2px solid #000;
-    border-left-color: white;
+    border-right: 1px solid white;
+    padding-right: 4px;
 }
 
 .blue-bar>ul>li>a{
     color: white;
+    text-decoration: none;
+}
+
+.blue-bar>ul>li>a:hover,
+.blue-bar>ul>li>a:focus,
+.blue-bar>ul>li>a:active{
+    color:  #777;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
