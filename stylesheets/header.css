@@ -38,7 +38,7 @@
 .blue-bar>ul>li>a:hover,
 .blue-bar>ul>li>a:focus,
 .blue-bar>ul>li>a:active{
-    color:  #777;
+    color:  red;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
@@ -78,6 +78,11 @@
 .nav-justified > li:last-child > a {
   border-bottom: 0;
   border-radius: 0 0 5px 5px;
+}
+
+.nav-justified > li > a:hover,
+.nav-justified > li > a:focus {
+    color:red;
 }
 
 @media (min-width: 768px) {
