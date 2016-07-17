@@ -4,11 +4,16 @@
     opacity: 0.7;
     filter: alpha(opacity=70); 
     margin-bottom: 1vw;
+    text-decoration: none;
 }
 
-.categoria_home:hover {
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+.categoria_home:hover,
+.categoria_home:focus,
+.categoria_home:active{
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+    text-decoration: none;
+    
 }
 
 .categoria_home>h2{
@@ -20,6 +25,12 @@
     opacity: 1;
     filter: alpha(opacity=100); 
     font-size: 36px;
+}
+
+.titolo_cat:hover,
+.titolo_cat:focus,
+.titolo_cat:active{
+    text-decoration: none;
 }
 
 
