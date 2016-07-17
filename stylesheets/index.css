@@ -1,32 +1,29 @@
-.immagine_categoria{
-    position:static;
-    width: 100%;
-    
-}
-
-.immagine_categoria>img{
+/*.categoria_home>img{
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
 
-.immagine_categoria>img:hover{
+.categoria_home>img:hover{
     opacity: 0.5;
     filter: alpha(opacity=50);    
 }
 
-.titolo_categoria{
+.categoria_home>h2{
     position:relative;
-    z-index: 20;
-    top:-300px;
-    
+    z-index: 20%;    
+}
+*/
+
+.categoria_home{
+    width: 100%;
 }
 
-.titolo_categoria h2{
-    margin-top: 0px;
-    text-align: right;
-    padding-right: 5px;
-    line-height: 300px;
-    font: Helvetica;
-    font-weight:bold;
-    font-size: 32px;
+.categoria_home:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+#promozioni{
+    background-image: url(../images/homepage/offerte.jpg);
+    background-size:cover;
 }
