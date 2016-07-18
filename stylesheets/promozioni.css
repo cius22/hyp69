@@ -1,0 +1,41 @@
+#categoria{
+    background-color: #00448F;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    border: 0px;
+    margin-top: 0px;
+}
+
+#categoria h2{
+    margin-top: 0px;
+    padding-right: 1vw;
+    line-height: 50px;
+    font: Helvetica;
+    font-weight:bold;
+    font-size: 2vw;
+}
+
+.link_cat:hover,
+.link_cat:focus,
+.link_cat:active{
+    text-decoration: none;
+}
+
+.contenitore_promozioni{
+    margin: , 2vw, 2vw, 2vw;
+    padding: 2vw, 2vw, 10px, 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contenitore_singolo{
+    margin: , 2vw, 2vw, 2vw;
+    padding: 2vw, 2vw, 10px, 10px;
+    border: 1px solid grey;
+    width: 30%;
+    border-radius: 5px;
+
+}
