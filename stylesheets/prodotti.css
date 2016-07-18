@@ -41,7 +41,7 @@
 
 .categoria_prodotti>h2{
     text-align: center;
-    padding-top: 10vw;
+    padding-top: 5vw;
     font-weight: bold;
     color: #00448F;
     opacity: 1;
@@ -54,6 +54,28 @@
     font-weight: bold;
     color: #00448F;
     font-size: 2vw;
+}
+
+.button{
+    background-color: #00448F;
+    border-radius: 5px;
+    width: 10vw;
+    background-position: center;
+    margin:0 auto;
+}
+
+.button>p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25vw;
+    font: Helvetica;
+}
+
+.button>p:hover,
+.button>p:focus,
+.button>p:active{
+    color: red;
 }
 
 #smartphone{

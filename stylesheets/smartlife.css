@@ -15,7 +15,7 @@
     line-height: 50px;
     font: Helvetica;
     font-weight:bold;
-    font-size: 2vw;
+    font-size: 30px;
 }
 
 .link_cat:hover,
@@ -27,21 +27,22 @@
 .categoria_smartlife{
     width: 100%;
     height: 30vw;
-    opacity: 0.7;
-    filter: alpha(opacity=70); 
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
     margin-bottom: 1vw;
 }
 
 .categoria_smartlife:hover,
-.categoria_home:focus,
-.categoria_home:active{
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+.categoria_smartlife:focus,
+.categoria_smartlife:active{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
 }
 
 .categoria_smartlife>h2{
     text-align: center;
-    padding-top: 10vw;
+    padding-top: 5vw;
+    vertical-align: middle;
     font-weight: bold;
     color: #00448F;
     opacity: 1;
@@ -54,6 +55,28 @@
     font-weight: bold;
     color: #00448F;
     font-size: 2vw;
+}
+
+.button{
+    background-color: #00448F;
+    border-radius: 5px;
+    width: 10vw;
+    background-position: center;
+    margin:0 auto;
+}
+
+.button>p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25vw;
+    font: Helvetica;
+}
+
+.button>p:hover,
+.button>p:focus,
+.button>p:active{
+    color: red;
 }
 
 #casaefamiglia{
