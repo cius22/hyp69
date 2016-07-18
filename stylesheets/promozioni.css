@@ -37,7 +37,7 @@ h3 {
     width:100%;
 }
 
-.contenitore_singolo{
+.contenitore_prodotto{
     margin-left: 20px;
     margin-top: 25px;
     padding: 25px 10px 10px 25px;
@@ -50,6 +50,22 @@ h3 {
 
 }
 
-.contenitore_singolo img{
+.contenitore_prodotto img{
+    vertical-align:middle;
+}
+
+.contenitore_smartlife{ 
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 25px 10px 10px 25px;
+    border: 1px solid grey;
+    width: 612.5px;
+    max-width: 95%;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-table;
+}
+
+.contenitore_smartlife img{ 
     vertical-align:middle;
 }
