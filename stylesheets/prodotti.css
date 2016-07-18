@@ -15,7 +15,7 @@
     line-height: 50px;
     font: Helvetica;
     font-weight:bold;
-    font-size: 2vw;
+    font-size: 30px;
 }
 
 .link_cat:hover,
@@ -24,7 +24,7 @@
     text-decoration: none;
 }
 
-.categoria_smartlife{
+.categoria_prodotti{
     width: 100%;
     height: 30vw;
     opacity: 0.7;
@@ -32,14 +32,14 @@
     margin-bottom: 1vw;
 }
 
-.categoria_smartlife:hover,
+.categoria_prodotti:hover,
 .categoria_home:focus,
 .categoria_home:active{
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
 
-.categoria_smartlife>h2{
+.categoria_prodotti>h2{
     text-align: center;
     padding-top: 10vw;
     font-weight: bold;
@@ -49,29 +49,34 @@
     font-size: 3vw;
 }
 
-.categoria_smartlife>p{
+.categoria_prodotti>p{
     text-align: center;
     font-weight: bold;
     color: #00448F;
     font-size: 2vw;
 }
 
-#casaefamiglia{
-    background-image: url(../images/smart_life/casa_e_famiglia.jpg);
+#smartphone{
+    background-image: url(../images/prodotti/smartphone.jpg);
     background-size: cover;
 }
 
-#serviziallapersona{
-    background-image: url(../images/smart_life/servizi_alla_persona.jpg);
+#tablet{
+    background-image: url(../images/prodotti/tablet.jpg);
     background-size: cover;
 }
 
-#TVeEntertainment{
-    background-image: url(../images/smart_life/tv&entertaiment.jpg);
+#modem{
+    background-image: url(../images/prodotti/modem.jpg);
     background-size: cover;
 }
 
-#saluteebenessere{
-    background-image: url(../images/smart_life/salute_e_benessere.jpg);
+#tv{
+    background-image: url(../images/prodotti/tv.jpg);
+    background-size: cover;
+}
+
+#outlet{
+    background-image: url(../images/prodotti/outlet.jpg);
     background-size: cover;
 }
