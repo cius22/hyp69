@@ -44,6 +44,10 @@
     vertical-align:middle;
 }
 
+#prezzo_intero{
+    font-size: 1vw;
+}
+
 .prezzo{
     font-size: 2vw;
     text-align: center;
@@ -88,11 +92,13 @@
     color: #00448F;
     text-align: center;
     font-weight: bold;
+    font-size: 3vw;
 }
 
 #home>h3{
     color: black;
     text-align: center;
+    font-size: 2vw;
 }
 
 .embed-responsive-16by9{
