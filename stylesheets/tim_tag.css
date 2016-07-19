@@ -101,9 +101,111 @@
     font-size: 2vw;
 }
 
+#home>h4{
+    color: #00448F;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
 .embed-responsive-16by9{
     margin-left: 18vw;
     margin-right: 18vw;
     height:36vw;
     padding-bottom:5vw;
+}
+
+#cane{
+    width: 64vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+#contenitore-bottom{
+    display: inline-table;
+    width: 64vw;
+    height: 20vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+#bottom-sx{
+    width: 31vw;
+    height: 20vw;
+    display: inline-table;    
+}
+
+#bottom-dx{
+    width: 31vw;
+    height: 20vw;
+    display: inline-table;
+}
+
+#logo-app{
+    width: 10vw;
+    height: 20vw;
+    display: inline-table;
+    margin-top: -5vw;
+}
+
+#logo-app>img{
+    padding-top: 10vw;
+    margin-top: -5vw;
+}
+
+#testo-app{
+    width: 20.5vw;
+    height: 20vw;
+    display: inline-table;
+}
+
+#testo-app>p{
+    color:black;
+    font-size: 1vw;
+}
+
+#testo{
+    color:grey;
+    font-size: 1vw;
+    text-align: left;
+}
+
+#menu1{
+    text-align: center;
+}
+
+#menu1>h2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#menu1>h3{
+    color: #00448F;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.card-deck-wrapper{
+    width: 100%
+}
+
+.testo_passo{
+    font-size: 20px;
+    text-align: center;
+    color: #00448F;
+}
+
+.card{
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    width: 20vw;
+    height: 20vw;
+    display: inline-table;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+
+.card-title{
+    color: #00448F;
 }
