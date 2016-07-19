@@ -84,8 +84,8 @@
 .categoria_casa_e_famiglia:hover,
 .categoria_casa_e_famiglia:focus,
 .categoria_casa_e_famiglia:active{
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 .categoria_casa_e_famiglia>h2{
