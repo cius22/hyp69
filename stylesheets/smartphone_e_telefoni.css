@@ -24,6 +24,10 @@
     text-decoration: none;
 }
 
+#banda{
+    background-image: url(../images/prodotti/smartphone.jpg);
+    background-size: cover;
+}
 
 h3 {
     color: #00448F;

@@ -43,7 +43,7 @@ h3 {
     padding: 25px 15px 10px 15px;
     border: 1px solid grey;
     width: 400px;
-    max-width: 95%;
+    max-width: 80vw;
     height: 200px;
     border-radius: 5px;
     display: inline-table;
@@ -57,7 +57,7 @@ h3 {
 }
 
 .contenuto{
-    width: 180px;
+    width: 45%;
     height: 100%;
     display: inline-table;
     text-align: center;
