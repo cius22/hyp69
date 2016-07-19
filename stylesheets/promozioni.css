@@ -53,7 +53,7 @@ h3 {
 .contenitore_singolo:hover,
 .contenitore_singolo:active,
 .contenitore_singolo.focus{
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 .contenuto{

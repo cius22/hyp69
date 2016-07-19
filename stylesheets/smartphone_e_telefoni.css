@@ -57,7 +57,7 @@ h3 {
 .contenitore_singolo:hover,
 .contenitore_singolo:active,
 .contenitore_singolo.focus{
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 .contenuto{
@@ -68,8 +68,24 @@ h3 {
     vertical-align:middle;
 }
 
-.prezzo{
-    font-size: 2em;
+.button{
+    background-color: #00448F;
+    border-radius: 5px;
+    width: 10vw;
+    background-position: center;
+    margin:0 auto;
+}
+
+.button>p{
     text-align: center;
-    color: #00448F;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25vw;
+    font: Helvetica;
+}
+
+.button>p:hover,
+.button>p:focus,
+.button>p:active{
+    color: red;
 }
