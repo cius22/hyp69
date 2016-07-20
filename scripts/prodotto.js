@@ -1,43 +1,47 @@
-$( document ).ready(function retrieveData() {
-    
+$(document).ready(function retrieveData() {
     
     window.alert(window.location.href);
     
     var url=window.location.href;
-    window.alert("URL "+url);
     
     var end=url.length;
-    window.alert("END "+end);
     
     var start = url.lastIndexOf("=");
-    window.alert("START "+start);
     
     start++;
-    window.alert("START++ "+start);
     
     var id=url.slice(start, end);
-    window.alert("ID "+id);
     
-        
-   $.ajax({
-        url: "../scripts/prodotto.php"+id,
+    $.ajax({
+        url: "../scripts/prodotto.php?ID="+id,
         type:"GET",
         dataType: "json",
-        success: function(){
-             window.alert("yep");
-             }
-        });
-
-    
-    
-    
-    document.getElementById("marca").innerHTML = "Paragraph changed.";
-    document.getElementById("modello").innerHTML = "Paragraph changed.";
-    document.getElementById("descrizione").innerHTML = "Paragraph changed.";
-    document.getElementById("prezzo_listino").innerHTML = "Paragraph changed.";
-    document.getElementById("prezzo_vendita").innerHTML = "Paragraph changed.";
-    document.getElementById("prezzo_rate").innerHTML = "Paragraph changed.";
-    document.getElementById("numero_rate").innerHTML = "Paragraph changed.";
-    
+        success: function(result){
+            window.alert("yep"); 
+            /*
+            var nome_intero=result["Marca"]+" "+result["Modello"];
+            var prezzo_listino=result["Prezzo_listino"]+"€";
+            var prezzo_vendita=result["Prezzo_vendita"]+"€";
+            var prezzo_rate=result["Prezzo_rate"]+"€ al mese";
+            var numero_rate=result["Numero_rate"]+" rate";
+            var nuovo_title="TIM - "+nome_intero;
+            
+            document.title = nuovo_title;
+            
+            document.getElementById("titolo").innerHTML = nome_intero;
+            document.getElementById("bread").innerHTML =  nome_intero;
+            
+            document.getElementById("descrizione").innerHTML = result["Descrizione"];
+            document.getElementById("prezzo_listino").innerHTML = result["Prezzo_listino"];
+            document.getElementById("prezzo_vendita").innerHTML = result["Prezzo_vendita"];
+            document.getElementById("prezzo_rate").innerHTML = result["Prezzo_rate"];
+            document.getElementById("numero_rate").innerHTML = result["Numero_rate"];*/
+        },
+        
+        error: function(){
+        windows.alert("nope");
+        }
+    });
 });
 
+    

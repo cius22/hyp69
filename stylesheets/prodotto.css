@@ -1,0 +1,47 @@
+#categoria{
+    background-color: #00448F;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    border: 0px;
+    margin-top: 0px;
+}
+
+#categoria h2{
+    margin-top: 0px;
+    padding-right: 1vw;
+    line-height: 50px;
+    font: Helvetica;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+#titolo{
+
+}
+
+#bread{
+
+}
+
+#descrizione{
+    
+}
+
+#prezzo_listino{
+    
+}
+
+#prezzo_vendita{
+    
+}
+
+#prezzo_rate{
+    
+}
+
+#numero_rate{
+    
+}
