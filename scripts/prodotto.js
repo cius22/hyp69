@@ -19,12 +19,15 @@ $( document ).ready(function retrieveData() {
     window.alert("ID "+id);
     
         
-    var stringona = $.ajax({
+   $.ajax({
+        url: "../scripts/prodotto.php"+id,
         type:"GET",
-        dataType: JSON,
-        url: "../scripts/prodotto.php"+id;
-    });
-    window.alert(stringona);
+        dataType: "json",
+        success: function(){
+             window.alert("yep");
+             }
+        });
+
     
     
     
