@@ -1,0 +1,67 @@
+#categoria{
+    background-color: #00448F;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    border: 0px;
+    margin-top: 0px;
+}
+
+#top_page{
+    text-align: center;
+}
+
+#title{
+    color: #00448F;    
+}
+
+.tipo_servizio{
+    color: #00448F;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+
+.conternitore{
+    width: 100%;
+    height: 25%;
+    display: inline-table;
+}
+
+.contenitore_singolo{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 45%;
+    height: 25%;
+    display: inline-table;
+}
+
+.contenitore_singolo>p{
+    font-size: 1.5vw;
+    color: black;
+}
+
+.contenuto{
+    width: 45%;
+    height: 100%;
+}
+
+.lista{
+    text-decoration: none;
+}
+
+a{
+    width: 100%;
+}
+
+a: hover{
+    text-decoration: none;
+    color:red;
+}
+
