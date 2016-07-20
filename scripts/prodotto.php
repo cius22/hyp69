@@ -13,14 +13,18 @@
     
     
     $where=$_GET["ID"];
-    $sql = "SELECT * FROM Prodotto WHERE ".$where;
+    $sql = "SELECT * FROM Prodotto WHERE ID=".$where;
     $result = $conn->query($sql);
 
     if ($result->num_rows==1) {
         $row = $result->fetch_assoc();
         echo json_encode($row);
-    } else {
-        echo "0 results";
     }
+        
+     if ($result->num_rows<1) {
+        echo "0 results";
+     }
+    
+         
     $conn->close();
 ?>

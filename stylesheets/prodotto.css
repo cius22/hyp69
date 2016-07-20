@@ -26,22 +26,52 @@
 
 }
 
+#immagine{
+    display: inline-table;
+    margin: auto;
+}
+
+#box_descrizione{
+    display: inline-table;
+    margin: auto;
+    padding-left: 10px;
+}
+
 #descrizione{
-    
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#prezzi{
+    display: inline-table;
+    text-align: center;
+
+}
+
+#vendita{
+    display: inline-table;
+    text-align: center;
+    padding-right: 20px;
 }
 
 #prezzo_listino{
-    
+    text-decoration: line-through;
+    font-size: 25px;
+    color: grey;
 }
 
 #prezzo_vendita{
-    
+    font-size: 35px;
+    color: red;
 }
 
 #prezzo_rate{
-    
+    color: green;
+    font-size: 30px;
 }
 
 #numero_rate{
-    
+    color: green;
+    font-size: 25px;
 }
