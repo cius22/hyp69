@@ -12,14 +12,19 @@ $( document ).ready(function retrieveData() {
     var start = url.lastIndexOf("=");
     window.alert("START "+start);
     
-    start;
+    start++;
     window.alert("START++ "+start);
     
     var id=url.slice(start, end);
     window.alert("ID "+id);
     
         
-    
+    var stringona = $.ajax({
+        type:"GET",
+        dataType: JSON,
+        url: "../scripts/prodotto.php"+id;
+    });
+    window.alert(stringona);
     
     
     
